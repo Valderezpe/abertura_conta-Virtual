@@ -1,5 +1,6 @@
 package com.valderez.br.aberturaconta.domain.user;
 
-public class UserType {
-    // COMUM;
+public enum UserType {
+    COMMUN,
+    MERCHANT
 }

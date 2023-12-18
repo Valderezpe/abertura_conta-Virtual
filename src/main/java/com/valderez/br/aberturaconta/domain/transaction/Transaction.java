@@ -1,23 +1,24 @@
 package com.valderez.br.aberturaconta.domain.transaction;
 
+import com.valderez.br.aberturaconta.domain.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.catalina.User;
+
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity(name="transactions")
-@Table(name="transActions")
+@Table(name="transactions")
 @Getter
 @Setter
 @AllArgsConstructor
 @EqualsAndHashCode(of="id")
 
-public class TransAction {
+public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 

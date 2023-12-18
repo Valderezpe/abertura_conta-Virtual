@@ -1,6 +1,7 @@
 package com.valderez.br.aberturaconta.repositories;
 
-import org.apache.catalina.User;
+import com.valderez.br.aberturaconta.domain.user.User;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
